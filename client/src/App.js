@@ -1,11 +1,5 @@
 import React, { Component } from 'react';
-import {
-  ApolloClient,
-  InMemoryCache,
-  ApolloProvider,
-  useQuery,
-  gql,
-} from '@apollo/client';
+import { ApolloClient, InMemoryCache, ApolloProvider } from '@apollo/client';
 
 // Components
 import BookList from './components/BookList';
