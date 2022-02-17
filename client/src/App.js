@@ -3,6 +3,7 @@ import { ApolloClient, InMemoryCache, ApolloProvider } from '@apollo/client';
 
 // Components
 import BookList from './components/BookList';
+import AddBook from './components/AddBook';
 
 // Apollo Client Component
 const client = new ApolloClient({
@@ -17,6 +18,7 @@ class App extends Component {
         <div id="main">
           <h1>Hello World</h1>
           <BookList />
+          <AddBook />
         </div>
       </ApolloProvider>
     );
