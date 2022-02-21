@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import { graphql, compose } from 'react-apollo';
+import { graphql } from 'react-apollo';
+import { compose } from '@apollo/client';
 import {
   getAuthorsQuery,
   addBookMutation,
